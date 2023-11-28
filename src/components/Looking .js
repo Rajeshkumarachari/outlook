@@ -11,28 +11,30 @@ import {
 
 const Looking = () => {
   return (
-    <div className=" mt-[430px] border ">
-      <div className=" flex">
+    <div className=" mt-10 sm:mt-[430px]  ">
+      <div className=" grid sm:flex">
         <div>
           <img src={FLOWEER} alt="Expand " />
         </div>
         <div className=" w-[600px] mt-32 mr-16 ">
-          <h1 className=" text-3xl font-medium">Expand your Outlook</h1>
-          <p className=" text-lg">
+          <h1 className=" text-3xl mx-4 sm:mx-0 font-medium">
+            Expand your Outlook
+          </h1>
+          <p className=" text-lg mx-4 sm:mx-0 ">
             A Microsoft 365 subscription includes premium Outlook features like
             an ad-free interface, enhanced security, the full desktop version of
             Office apps, and 1 TB of cloud storage.
           </p>
           <a
-            className=" text-blue-700 text-lg font-medium hover:underline"
+            className=" mx-4 sm:mx-0 text-blue-700 text-lg font-medium hover:underline"
             href="/"
           >
             Learn about premium
           </a>
         </div>
       </div>
-      <div className="bg-gray-100  pb-20">
-        <div className="  text-center mx-[700px] my-5 py-10 ">
+      <div className="bg-gray-100  hidden sm:block pb-20">
+        <div className=" hidden sm:block text-center mx-[700px] my-5 py-10 ">
           <img src={APPLE} alt="" />
         </div>
         <p className=" text-center text-3xl">Get the Outlook mobile app</p>
@@ -40,11 +42,11 @@ const Looking = () => {
         <p className=" text-center text-lg">
           <span className=" text-blue-700 underline cursor-pointer">
             Click here
-          </span>{" "}
+          </span>
           if you're having trouble with the QR code
         </p>
       </div>
-      <div className=" bg-blue-600 text-center text-white py-28 ">
+      <div className=" my-5 sm:my-0 bg-blue-600 text-center text-white py-28 ">
         <h1 className=" text-3xl">Looking for Hotmail?</h1>
         <p className=" text-lg">
           You've found it. We've redesigned and relaunched Hotmail as Outlook.

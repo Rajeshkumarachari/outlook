@@ -7,7 +7,7 @@ import Slide from "./components/Slide";
 
 function App() {
   return (
-    <div>
+    <div className=" w-full">
       <Header />
       <Email />
       <Organized />'
