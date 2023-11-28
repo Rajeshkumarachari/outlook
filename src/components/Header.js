@@ -4,7 +4,7 @@ import { LOGO, OUTLOOK_LOGO, SEARCH, USER_ICON } from "../Utils/constant";
 const Header = () => {
   return (
     <div>
-      <div className="  border w-full sm:w-fit">
+      <div className=" flex  border w-full sm:w-fit">
         <img
           className=" pl-[85px] h-6 my-4 cursor-pointer rotate-"
           src={LOGO}
